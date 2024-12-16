@@ -68,7 +68,7 @@ const Login = () => {
             setSubmiting(true);
             setTimeout(() => {
                 dispatch(signup({ username, email, password }));
-                navigation.navigate('Login');
+                navigation.navigate('Dashboard');
                 setSubmiting(false);
             }, 1000);
         }

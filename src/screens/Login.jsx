@@ -10,7 +10,7 @@ import { emailRegex, errorMessages, letter, nameRegex, numbers, onlyLatter, only
 const Login = () => {
     const navigation = useNavigation();
     const { username,password,email } = useSelector((state) => state.auth);
-     const [emailText, setEmail] = useState('')
+    const [emailText, setEmail] = useState('')
     const [pass, setPass] = useState('');
     const [showPassword, setShowPassword] = useState(false);
     const [emailFocused, setEmailFocud] = useState(false)
@@ -62,7 +62,7 @@ const Login = () => {
         if (isValid) {
             setSubmiting(true);
             setTimeout(() => {
-                navigation.navigate('Dashboard', { username });
+                navigation.navigate('Dashboard');
                 setSubmiting(false);
             }, 1000);
         }

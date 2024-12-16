@@ -29,7 +29,7 @@ const Dashboard = ({ navigation }) => {
     const handleScreenPress = () => {
         setDropdownVisible(false);
     };
-
+    
     return (
         <TouchableWithoutFeedback onPress={handleScreenPress}>
             <SafeAreaView style={styles.container}>

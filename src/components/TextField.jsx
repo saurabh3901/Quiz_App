@@ -22,6 +22,7 @@ const TextField = ({
                 <TextInput
                     style={styles.input}
                     placeholder={placeholder}
+                    placeholderTextColor="#aaa"
                     value={value}
                     onChangeText={onChangeText}
                     secureTextEntry={isPassword && !showPassword}

@@ -33,7 +33,7 @@ const HeaderBar = ({
 
 const styles = StyleSheet.create({
     headerContainer: {
-        backgroundColor: "#fff",
+        backgroundColor: "#ffa500",
         paddingVertical: 15,
         paddingHorizontal: 15,
         marginBottom: 10,
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 24,
         fontWeight: "bold",
-        color: "#333",
+        color: "#fff",
     },
     logoutIcon: {
         width: 25,
