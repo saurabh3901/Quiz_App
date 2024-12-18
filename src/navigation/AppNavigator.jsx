@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
   return (
     <Stack.Navigator>
-       {/* Quiz app routes */}
+       {/* Quiz app routes using redux*/}
        <Stack.Screen
         name="LandingPage"
         component={LandingPage}
